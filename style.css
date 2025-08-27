@@ -214,6 +214,15 @@ footer {
     font-size: 16px;
 }
 
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
 /* Product Page Styling */
 .product-page-container {
     display: flex;
