@@ -213,3 +213,36 @@ footer {
     text-align: center;
     font-size: 16px;
 }
+
+/* Product Page Styling */
+.product-page-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-price {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.price {
+    font-weight: bold;
+    color: #0070d1;
+}
+
+@media (max-width: 768px) {
+    .product-page-container {
+        flex-direction: column;
+    }
+}
